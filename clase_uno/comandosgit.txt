@@ -1,0 +1,29 @@
+revisar configuracion:
+git --version
+
+crear usuario:
+PS C:\Users\Debora> git config --global user.name "cristian.cm"
+PS C:\Users\Debora> git config user.name
+cristian.cm
+
+crear email:
+PS C:\Users\Debora> git config --global user.email "cristian.tgs.7@hotmail.com"
+PS C:\Users\Debora> git config user.email
+cristian.tgs.7@hotmail.com
+
+chequear
+git config --list
+
+borrar en la consola:
+clear
+cls
+
+iniciar git repository EMPTY
+git init
+
+Añadir al git
+git add index.html
+git add .
+
+git commit -m "creo mi primera pagina web"`
+esto es para guardar los cambios
